@@ -1,6 +1,9 @@
 {
-  "name": "@editorjs/list",
-  "version": "1.4.0",
+  "name": "@bfrow-tech/list",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/bfrow-tech" 
+  },
+  "version": "1.4.1",
   "keywords": [
     "codex editor",
     "list",
@@ -10,15 +13,15 @@
   ],
   "description": "List Tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/list",
+  "repository": "git://github.com/bfrow-tech/list.git",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
+    "name": "BFrow Team",
+    "email": "roman.irinin@bfrow.com"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
